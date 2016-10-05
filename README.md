@@ -1,7 +1,6 @@
-# homebrew-giantswarm
-Homebrew tap for all GiantSwarm command line tools
+# Homebrew tap for Giant Swarm command line tools
 
-# Usage
+## Usage
 
 ```
 $ brew tap giantswarm/giantswarm

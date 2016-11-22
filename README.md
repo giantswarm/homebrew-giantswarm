@@ -4,5 +4,5 @@
 
 ```
 $ brew tap giantswarm/giantswarm
-$ brew install <inago, swarm, ...>
+$ brew install <gsctl, inago, ...>
 ```

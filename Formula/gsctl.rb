@@ -4,7 +4,7 @@ require "formula"
 # https://github.com/giantswarm/gsctl/blob/master/LICENSE
 
 class Gsctl < Formula
-  desc "controls things on Giant Swarm"
+  desc "Controls things on Giant Swarm"
   homepage "https://github.com/giantswarm/gsctl"
   url "http://downloads.giantswarm.io/gsctl/0.0.1/gsctl-0.0.1-darwin-amd64.tar.gz"
   version "0.0.1"

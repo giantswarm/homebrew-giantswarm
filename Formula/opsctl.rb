@@ -4,10 +4,10 @@ require "formula"
 class Opsctl < Formula
   desc "Controls things on Giant Swarm"
   homepage "https://github.com/giantswarm/gsctl"
-  url "https://github.com/giantswarm/opsctl/releases/download/62c78d5/opsctl-darwin-amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  version "62c78d5"
+  url "https://github.com/giantswarm/opsctl/releases/download/f6b9ad2/opsctl-darwin-amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  version "f6b9ad2"
   # openssl dgst -sha256 <file>
-  sha256 "ad098f45680279dd34c870e1a284a8415f08ba8ef73da7a8383def8bee90a847"
+  sha256 "9c17db141258844897a985532c3576d7c9e3ef8d4b874b946544a5739f9a65b6"
   def install
     bin.install "opsctl"
   end

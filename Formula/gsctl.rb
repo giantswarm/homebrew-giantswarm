@@ -6,10 +6,10 @@ require "formula"
 class Gsctl < Formula
   desc "Controls things on Giant Swarm"
   homepage "https://github.com/giantswarm/gsctl"
-  url "https://github.com/giantswarm/gsctl/releases/download/1.1.1/gsctl-1.1.1-darwin-amd64.tar.gz"
-  version "1.1.1"
+  url "https://github.com/giantswarm/gsctl/releases/download/1.1.2/gsctl-1.1.2-darwin-amd64.tar.gz"
+  version "1.1.2"
   # openssl dgst -sha256 <file>
-  sha256 "2fde5c11baa2e4b5a2ba3466d12febcbc42f2faa7c6f694b751ddca4f828e607"
+  sha256 "713676cc41d316e24597e8328ceda4680bcff4334163237c76e56a4419def008"
 
   def install
     bin.install "gsctl"
